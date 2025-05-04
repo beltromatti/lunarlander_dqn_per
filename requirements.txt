@@ -5,3 +5,4 @@ matplotlib>=3.5.0
 pyyaml>=6.0
 gymnasium>=0.29.1
 box2d-py>=2.3.5
+pygame>=2.6.1
