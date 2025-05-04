@@ -83,7 +83,7 @@ This project leveraged generative artificial intelligence, specifically Grok 3 d
 * deep-reinforcement-learning 1.1+
 * PyTorch 2.0.0+
 * Gymnasium 0.29.1+
-+ Box2D-py 2.3.5
+* Box2D-py 2.3.5
 * NumPy
 * Matplotlib
 * PyYAML
