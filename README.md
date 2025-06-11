@@ -1,6 +1,6 @@
 # LunarLander DQN PER Project
 
-LunarLander-v3 game played by an AI agent trained with Deep Reiforcement Learning using the DQN algorithm with Prioritized Experience Replay (PER).
+LunarLander-v3 game played by an AI agent trained with the DQN algorithm with Prioritized Experience Replay (PER) using deep-reinforcement-learning python framework.
 
 ## Overview
 
@@ -32,19 +32,26 @@ lunarlander_dqn_per/
 
 ## Installation
 
-1. Clone the repository:
+1. Install deep-reinforcement-learning framework
+   ```bash
+   git clone https://github.com/beltromatti/deep-reinforcement-learning.git
+   cd deep-reinforcement-learning
+   pip install -e .
+   ```
+   
+2. Clone the repository:
    ```bash
    git clone https://github.com/beltromatti/lunarlander_dqn_per.git
    cd lunarlander_dqn_per
    ```
 
-2. Create a virtual environment and activate it:
+3. Create a virtual environment and activate it:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. Install dependencies:
+4. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
